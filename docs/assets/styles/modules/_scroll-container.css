@@ -1,13 +1,12 @@
 .scroll-container {
-    margin: 0.125rem 0 0.125rem 0;
     padding: .2.5em 0 .2.5em 0;
     background-color: var(--mainLightBlue);
     text-align: center;
+    border: 1px solid var(--mainGrey);
 }
 
 @media screen and (min-width: 512px) {
     .scroll-container  {
-        margin: 0;
         padding: .5em 0 .5em 0;
     }
 }
