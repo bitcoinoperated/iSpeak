@@ -1,12 +1,13 @@
 .site-footer {
     background-color: var(--mainBlue);
     color: white;
-    padding: .5rem 0;
     text-align: center;
 }
 
 .site-footer__social {
-    margin: 0 auto 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+    
 }
 
 .site-footer__social img {
@@ -17,47 +18,54 @@
 }
 
 .site-footer__contact {
+    width: 100%;
     display: flex;
+    margin-bottom: .5rem;
 }
 
 .site-footer__text {
-    display: block;
     float: left;
-    margin-bottom: 1rem;
     font-size: .8rem;
     font-weight: 200;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media screen and (min-width: 512px) {
     .site-footer__text {
-       display: block;
-       margin-bottom: 0;
-       margin-right: 1.4rem;
+        margin-left: 0;
+        margin-right: auto;
     }
 }
 
-.site-footer-img {
+.site-footer__links {
+    float: right;
+    padding-top: 1rem;
+    
+}
+
+.site-footer__links-img  {
+   float: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.site-footer__links-img img {
     width: 3rem;
     height: 3rem;
-    margin-bottom: 1rem;
 }
 
-@media screen and (min-width: 512px) {
-    .site-footer__contact img {
-        display: inline;
-        margin-bottom: 0;
-        margin-left: 1.4rem;
-    }
-}
-
-.site-footer__btn {
+.site-footer__links-btn {
     display: none;    
 }
 
 @media screen and (min-width: 512px) {
-    .site-footer__btn {
+    .site-footer__links-btn {
         display: block;
         float: right;
-        margin-bottom: 1rem;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
