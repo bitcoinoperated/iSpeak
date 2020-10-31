@@ -1,0 +1,38 @@
+:root {
+    --mainGrey: #B8BFC3;
+    --mainGreyDark: #1f1f1f;
+    --mainLightBlue: #b5d6f0; 
+    --mainBlue: #2b5ba3;
+    --mainBlueDark: #053d91;
+    --mainRed: #e78e8e;
+    --mainRedder: #b13d3d;
+  }
+
+html {
+    scroll-behavior: smooth;
+    padding: 0;
+  }
+  
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+}
+  
+* {
+    box-sizing: border-box;
+}
+  
+a {
+    color: var(--mainRedder);
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}

@@ -1,0 +1,27 @@
+.large-hero {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid var(--mainBlue);
+}
+
+.large-hero__img-1 {
+    display: block;
+}
+
+@media screen and (min-width: 512px) {
+    .large-hero__img-1 {
+        display: none;
+    }
+}
+
+.large-hero__img-2 {
+    display: none;
+}
+
+@media screen and (min-width: 512px) {
+    .large-hero__img-2 {
+        display: block;
+        width: 100%;
+    }
+}
+

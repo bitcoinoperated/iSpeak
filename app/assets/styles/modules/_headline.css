@@ -1,0 +1,43 @@
+.headline {
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: var(--mainBlue);
+}
+
+@media screen and (min-width: 512px) {
+    .headline {
+        font-size: 1.8rem;
+    }
+}
+
+.headline--centered {
+    text-align: center;
+}
+
+.headline--main-small {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 512px) {
+    .headline--main-small {
+        font-size: 1.3rem;
+    }
+}
+
+.headline--narrow {
+    max-width: 896px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headline--b-margin-small {
+    margin-bottom: 0.5em;
+}
+.headline--b-margin-large {
+    margin-bottom: 1.6em;
+}
+
+.headline--no-t-margin {
+    margin-top: 0;
+}

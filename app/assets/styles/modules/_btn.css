@@ -1,0 +1,24 @@
+.btn {
+    background-color: var(--mainBlue);
+    color: #ffffff;
+    text-decoration: none;
+    padding: .8rem 1rem;
+    display: inline-block;
+}
+
+.btn--blue-dark {
+    background-color: var(--mainBlueDark);
+}
+
+.btn--large {
+    color: #ffffff;
+    margin: .2 0;
+    padding: .4rem 0;
+    border-width: 1px;
+
+}
+
+.btn--grey {
+    background-color: var(--mainGrey);
+    color: rgb(34, 32, 32);
+}

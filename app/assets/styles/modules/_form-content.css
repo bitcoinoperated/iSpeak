@@ -1,0 +1,35 @@
+.form-content {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    transform: translateY(-40%);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    padding-top: 60px;
+}
+
+@media screen and (min-width: 530px) {
+    .form-content {
+        top: 40%;
+        transform: translateY(-40%);
+    }
+}
+
+.form-content__fields {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.form-content__fields> * {
+    text-align: center;
+    color: var(--mainRedder);
+    padding: .4rem 0;
+    margin: .2rem 0;
+}
+
+.form-content__fields input::placeholder {
+    color: var(--mainRedder);
+    opacity: .7;
+}

@@ -1,0 +1,17 @@
+.generic-content-container {
+    color: var(--mainBlueDark);
+}
+
+@media screen and (min-width: 512px) {
+    .generic-content-container p {
+        line-height: 1.3;
+        font-size: 1.125rem;
+        margin: 0 0 1.8rem 0;
+    }
+}
+
+.generic-content-container p a {
+    font-weight: 700;
+}
+
+
